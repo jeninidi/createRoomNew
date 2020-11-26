@@ -1,0 +1,233 @@
+# Translation of Plugins - Genesis Featured Page Advanced - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Genesis Featured Page Advanced - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-21 19:18:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Genesis Featured Page Advanced - Stable (latest release)\n"
+
+#. #-#-#-#-#  genesis-featured-page-advanced-code.pot (Genesis Featured Page
+#. Advanced 1.9.6)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  genesis-featured-page-advanced-code.pot (Genesis Featured Page
+#. Advanced 1.9.6)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.outermost.co/"
+msgstr "http://www.outermost.co/"
+
+#: inc/widget-class.php:156
+msgid "(No Custom Title Set)"
+msgstr "(Ingen anpassad rubrik angiven)"
+
+#: inc/widget-class.php:153
+msgid "(No Title Set)"
+msgstr "(Ingen rubrik angiven)"
+
+#: inc/widget-class.php:541
+msgid "Show Page Content"
+msgstr "Visa sidinnehåll"
+
+#: inc/widget-class.php:562
+msgid "Custom Content"
+msgstr "Anpassa innehåll"
+
+#: inc/widget-class.php:570
+msgid "More Text"
+msgstr "Mer Text"
+
+#. Author of the plugin/theme
+msgid "Nick Diego"
+msgstr "Nick Diego"
+
+#: inc/widget-class.php:599
+msgid "Use Selected Image"
+msgstr "Använd vald bild"
+
+#: inc/widget-class.php:598
+msgid "Choose or Upload an Image"
+msgstr "Välj eller ladda upp en bild"
+
+#: inc/widget-class.php:559
+msgid "Show Custom Content"
+msgstr "Visa anpassat innehåll"
+
+#: inc/widget-class.php:544
+msgid "Content Character Limit"
+msgstr "Teckenbegränsning för innehåll"
+
+#: inc/widget-class.php:526
+msgid "Enable Page Title Link"
+msgstr "Aktivera sidrubriklänk"
+
+#: inc/widget-class.php:520
+msgid "Custom Page Title"
+msgstr "Anpassad sidrubrik"
+
+#: inc/widget-class.php:514
+msgid "Show Custom Page Title"
+msgstr "Visa anpassad sidrubrik"
+
+#: inc/widget-class.php:510
+msgid "Show Page Title"
+msgstr "Visa sidrubrik"
+
+#: inc/widget-class.php:506
+msgid "No Page Title"
+msgstr "Ingen sidrubrik"
+
+#: inc/widget-class.php:497
+msgid "Enable Image Link"
+msgstr "Aktivera bildlänk"
+
+#: inc/widget-class.php:530
+msgid "(Defaults to Below)"
+msgstr "(Nedanför är standard)"
+
+#. Description of the plugin/theme
+msgid "Adds an enhanced version of the Genesis - Featured Page widget. The Genesis Framework 2.0+ is required."
+msgstr "Lägger till en förbättrad version av widgeten ”Genesis - Utvald sida”. Kräver Genesis Framework 2.0+."
+
+#: inc/widget-class.php:575
+msgid "Insert More Text on a New Line"
+msgstr "Lägg till ”Mer text” på en ny rad"
+
+#: inc/widget-class.php:575
+msgid "Inserts More Text on a new line wrapped in a <div> tag with the class .fpa-more-text for styling purposes."
+msgstr "Lägger till ”Läs mer” på en ny rad omsluten av en <div>-tagg med klassen .fpa-more-text för styling-syften."
+
+#: inc/widget-class.php:570
+msgid "Leave empty for no More Text."
+msgstr "Lämna tomt för ingen ”Mer text”."
+
+#: inc/widget-class.php:530
+msgid "Position Page Title Above Image"
+msgstr "Placera sidrubriken över bild"
+
+#. Plugin Name of the plugin/theme
+msgid "Genesis Featured Page Advanced"
+msgstr "Genesis Featured Page Advanced"
+
+#: inc/widget-class.php:551
+msgid "Show Page Excerpt"
+msgstr "Visa sidoutdrag"
+
+#: inc/widget-class.php:491
+msgid "Center"
+msgstr "Centrera"
+
+#: inc/widget-class.php:490
+msgid "Right"
+msgstr "﻿Höger"
+
+#: inc/widget-class.php:489
+msgid "Left"
+msgstr "Vänster"
+
+#: inc/widget-class.php:488
+msgid "None"
+msgstr "Inga"
+
+#: inc/widget-class.php:438 inc/widget-class.php:471
+msgid "Original Size"
+msgstr "Originalstorlek"
+
+#: inc/widget-class.php:452
+msgid "Select an Image"
+msgstr "Välj en bild"
+
+#: inc/widget-class.php:486
+msgid "Image Alignment"
+msgstr "Bildjustering"
+
+#: inc/widget-class.php:465
+msgid "Custom Image Size"
+msgstr "Anpassad bildstorlek"
+
+#: inc/widget-class.php:432
+msgid "Featured Image Size"
+msgstr "Storlek på utvald bild"
+
+#: inc/widget-class.php:426
+msgid "Show Custom Image"
+msgstr "Visa anpassad bild"
+
+#: inc/widget-class.php:422
+msgid "Show Featured Image"
+msgstr "Visa utvald bild"
+
+#: inc/widget-class.php:395
+msgid "Attribute"
+msgstr "Attribut"
+
+#: inc/widget-class.php:404
+msgid "Values"
+msgstr "Värden"
+
+#: inc/widget-class.php:418
+msgid "No Image"
+msgstr "Ingen bild"
+
+#: inc/widget-class.php:404
+msgid "Enter values for the link rel attribute."
+msgstr "Ange värden för länkens rel-attribut"
+
+#: inc/widget-class.php:395 inc/widget-class.php:404
+msgid "Link"
+msgstr "Länk"
+
+#: inc/widget-class.php:395
+msgid "Select the link target."
+msgstr "Välj länkmål."
+
+#: inc/widget-class.php:386
+msgid "This will direct all widget links (title, image, more text) to the custom link. Include the full path, i.e."
+msgstr "Detta kommer ändra alla widget-länkar (rubrik, bild, mer-text) till den anpassade länken. Inkludera full sökväg, dvs"
+
+#: inc/widget-class.php:382
+msgid "Custom Page Link"
+msgstr "Anpassad sidlänk"
+
+#: inc/widget-class.php:376
+msgid "Select Page"
+msgstr "Välj sida"
+
+#: inc/widget-class.php:358
+msgid "Position Title Below Image"
+msgstr "Placera rubriken under bilden"
+
+#: inc/widget-class.php:354
+msgid "Enable Title Link"
+msgstr "Aktivera rubriklänk"
+
+#: inc/widget-class.php:358
+msgid "(Defaults to Above)"
+msgstr "(Över är standard)"
+
+#: inc/widget-class.php:367
+msgid "Feature a Page"
+msgstr "Ange en utvald sida"
+
+#: inc/widget-class.php:349
+msgid "Title"
+msgstr "Rubrik"
+
+#: inc/widget-class.php:67
+msgid "Genesis - Featured Page Advanced"
+msgstr "Genesis - Featured Page Advanced"
+
+#: inc/widget-class.php:58
+msgid "Displays featured page with images and content."
+msgstr "Visar en utvald sida med med bilder och innehåll."
+
+#: genesis-featured-page-advanced.php:48
+msgid "Sorry, you can't activate %1$sGenesis - Featured Page Advanced%2$s unless you have installed the %3$sGenesis %4$s%5$s. Go back to the %6$sPlugins Page%5$s."
+msgstr "Du kan inte aktivera %1$sGenesis - Featured Page Advanced%2$s om du inte har installerat  %3$sGenesis %4$s%5$s. Gå tillbaka till %6$ssidan över tillägg%5$s."
+
+#: genesis-featured-page-advanced.php:43
+msgid "Sorry, you can't activate %1$sGenesis - Featured Page Advanced%2$s unless you have installed the %3$sGenesis Framework%4$s. Go back to the %5$sPlugins Page%4$s."
+msgstr "Du kan inte aktivera %1$sGenesis - Featured Page Advanced%2$s om du inte har installerat %3$sGenesis Framework%4$s. Gå tillbaka till %5$ssidan över tillägg%4$s."

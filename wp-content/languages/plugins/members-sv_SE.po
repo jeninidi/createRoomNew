@@ -1,0 +1,1084 @@
+# Translation of Plugins - Members - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Members - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-11 12:46:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Members - Stable (latest release)\n"
+
+#: members.php:323
+msgid "Members requires PHP version %1$s. You are running version %2$s. Please upgrade and try again."
+msgstr "Members kräver PHP version %1$s. Du använder nu version %2$s. Vänligen uppgradera och försök igen."
+
+#: inc/functions-private-site.php:198
+msgid "If you reached this page by accident and meant to visit one of your own sites, try one of the following links."
+msgstr "Om du råkade komma till denna sida när du försökte nå en av dina egna webbplatser, försök med en av följande länkar."
+
+#: inc/functions-private-site.php:191
+msgid "You do not currently have access to the \"%s\" site. If you believe you should have access, please contact your network administrator."
+msgstr "Du har inte behörighet till webbplatsen ”%s”. Om du tror att du borde ha tillgång till webbplatsen, vänligen kontakta din nätverksadministratör."
+
+#: inc/functions-private-site.php:167
+msgid "You are not currently logged in."
+msgstr "Du är inte inloggad just nu."
+
+#: inc/functions-capabilities.php:147
+msgid "Manage Post Tags"
+msgstr "Hantera inläggsetiketter"
+
+#: inc/functions-capabilities.php:146
+msgid "Delete Post Tags"
+msgstr "Ta bort inläggsetiketter"
+
+#: inc/functions-capabilities.php:145
+msgid "Edit Post Tags"
+msgstr "Redigera inläggsetiketter"
+
+#: inc/functions-capabilities.php:144
+msgid "Assign Post Tags"
+msgstr "Tilldela inläggsetiketter"
+
+#: inc/functions-capabilities.php:143
+msgid "Delete Categories"
+msgstr "Ta bort kategorier"
+
+#: inc/functions-capabilities.php:142
+msgid "Edit Categories"
+msgstr "Redigera kategorier"
+
+#: inc/functions-capabilities.php:141
+msgid "Assign Categories"
+msgstr "Tilldela kategorier"
+
+#: inc/functions-capabilities.php:126
+msgid "Restrict Content"
+msgstr "Begränsa innehåll"
+
+#: inc/functions-capabilities.php:123
+msgid "Remove Users"
+msgstr "Ta bort användare"
+
+#: inc/functions-capabilities.php:122
+msgid "Promote Users"
+msgstr "Befordra användare"
+
+#: inc/functions-capabilities.php:121
+msgid "List Users"
+msgstr "Lista användare"
+
+#: inc/functions-capabilities.php:120
+msgid "List Roles"
+msgstr "Lista roller"
+
+#: inc/functions-capabilities.php:119
+msgid "Edit Users"
+msgstr "Redigera användare"
+
+#: inc/functions-capabilities.php:118
+msgid "Edit Roles"
+msgstr "Redigera roller"
+
+#: inc/functions-capabilities.php:117
+msgid "Delete Users"
+msgstr "Ta bort användare"
+
+#: inc/functions-capabilities.php:116
+msgid "Delete Roles"
+msgstr "Ta bort roller"
+
+#: inc/functions-capabilities.php:115
+msgid "Create Users"
+msgstr "Skapa användare"
+
+#: inc/functions-capabilities.php:114
+msgid "Create Roles"
+msgstr "Skapa roller"
+
+#: inc/functions-capabilities.php:111
+msgid "Update Plugins"
+msgstr "Uppdatera tillägg"
+
+#: inc/functions-capabilities.php:110
+msgid "Install Plugins"
+msgstr "Installera tillägg"
+
+#: inc/functions-capabilities.php:109
+msgid "Edit Plugins"
+msgstr "Redigera tillägg"
+
+#: inc/functions-capabilities.php:108
+msgid "Delete Plugins"
+msgstr "Ta bort tillägg"
+
+#: inc/functions-capabilities.php:107
+msgid "Activate Plugins"
+msgstr "Aktivera tillägg"
+
+#: inc/functions-capabilities.php:104
+msgid "Update Themes"
+msgstr "Uppdatera teman"
+
+#: inc/functions-capabilities.php:103
+msgid "Switch Themes"
+msgstr "Byt tema"
+
+#: inc/functions-capabilities.php:102
+msgid "Install Themes"
+msgstr "Installera tema"
+
+#: inc/functions-capabilities.php:101
+msgid "Edit Themes"
+msgstr "Redigera tema"
+
+#: inc/functions-capabilities.php:100
+msgid "Edit Theme Options"
+msgstr "Redigera temainställningar"
+
+#: inc/functions-capabilities.php:99
+msgid "Delete Themes"
+msgstr "Ta bort teman"
+
+#: inc/functions-capabilities.php:96
+msgid "Manage Categories"
+msgstr "Hantera kategoier"
+
+#: inc/functions-capabilities.php:93
+msgid "Upload Files"
+msgstr "Ladda upp filer"
+
+#: inc/functions-capabilities.php:90
+msgid "Read Private Pages"
+msgstr "Läsa privata sidor"
+
+#: inc/functions-capabilities.php:89
+msgid "Publish Pages"
+msgstr "Publicera sidor"
+
+#: inc/functions-capabilities.php:88
+msgid "Edit Published Pages"
+msgstr "Redigera publicerade sidor"
+
+#: inc/functions-capabilities.php:87
+msgid "Edit Private Pages"
+msgstr "Redigera privata sidor"
+
+#: inc/functions-capabilities.php:86
+msgid "Edit Pages"
+msgstr "Redigera sidor"
+
+#: inc/functions-capabilities.php:85
+msgid "Edit Others' Pages"
+msgstr "Redigera andra sidor"
+
+#: inc/functions-capabilities.php:84
+msgid "Delete Published Pages"
+msgstr "Ta bort publicerade sidor"
+
+#: inc/functions-capabilities.php:83
+msgid "Delete Private Pages"
+msgstr "Ta bort privata sidor"
+
+#: inc/functions-capabilities.php:82
+msgid "Delete Pages"
+msgstr "Ta bort sidor"
+
+#: inc/functions-capabilities.php:81
+msgid "Delete Others' Pages"
+msgstr "Ta bort andras sidor"
+
+#: inc/functions-capabilities.php:78
+msgid "Read Private Posts"
+msgstr "Läsa privata inlägg"
+
+#: inc/functions-capabilities.php:77
+msgid "Publish Posts"
+msgstr "Publicera inlägg"
+
+#: inc/functions-capabilities.php:76
+msgid "Edit Published Posts"
+msgstr "Redigera publicerade inlägg"
+
+#: inc/functions-capabilities.php:75
+msgid "Edit Private Posts"
+msgstr "Redigera privata inlägg"
+
+#: inc/functions-capabilities.php:74
+msgid "Edit Posts"
+msgstr "Redigera inlägg"
+
+#: inc/functions-capabilities.php:73
+msgid "Edit Others' Posts"
+msgstr "Redigera andras inlägg"
+
+#: inc/functions-capabilities.php:72
+msgid "Delete Published Posts"
+msgstr "Ta bort publicerade inlägg"
+
+#: inc/functions-capabilities.php:71
+msgid "Delete Private Posts"
+msgstr "Ta bort privata inlägg"
+
+#: inc/functions-capabilities.php:70
+msgid "Delete Posts"
+msgstr "Ta bort inlägg"
+
+#: inc/functions-capabilities.php:69
+msgid "Delete Others' Posts"
+msgstr "Ta bort andras inlägg"
+
+#: inc/functions-capabilities.php:66
+msgid "Update Core"
+msgstr "Uppdatera WordPress-installationen"
+
+#: inc/functions-capabilities.php:65
+msgid "Unfiltered HTML"
+msgstr "Ofiltrerad HTML"
+
+#: inc/functions-capabilities.php:64
+msgid "Read"
+msgstr "Läsa"
+
+#: inc/functions-capabilities.php:63
+msgid "Moderate Comments"
+msgstr "Granska kommentarer"
+
+#: inc/functions-capabilities.php:62
+msgid "Manage Options"
+msgstr "Hantera inställningar"
+
+#: inc/functions-capabilities.php:61
+msgid "Manage Links"
+msgstr "Hantera länkar"
+
+#: inc/functions-capabilities.php:60
+msgid "Import"
+msgstr "Importera"
+
+#: inc/functions-capabilities.php:59
+msgid "Export"
+msgstr "Exportera"
+
+#: inc/functions-capabilities.php:58
+msgid "Edit Files"
+msgstr "Redigera filer"
+
+#: inc/functions-capabilities.php:57
+msgid "Edit Dashboard"
+msgstr "Redigera adminpanel"
+
+#: admin/views/class-view-general.php:282
+msgid "Require authentication for access to the REST API."
+msgstr "Kräv autentisering för att kunna använda REST API."
+
+#: admin/views/class-view-general.php:169
+msgid "Show human-readable capabilities when possible."
+msgstr "Visa läsbara behörigheter när det är möjligt."
+
+#: admin/views/class-view-general.php:84
+msgid "REST API"
+msgstr "REST API"
+
+#: admin/views/class-view-addons.php:241
+msgid "Some add-ons may require purchase before downloading them. Clicking the purchase button will take you off-site to view the add-on in more detail."
+msgstr "Vissa tillägg måste köpas innan de kan laddas ner. När du klickar på köp-knappen vidarebefordras du till en extern sida med mer detaljerad information om tillägget."
+
+#: admin/views/class-view-addons.php:227
+msgid "Some plugins may be available for direct download. In such cases, you can click the download button to get a ZIP file of the plugin."
+msgstr "Vissa tillägg kan vara tillgängliga för direktnedladdning. I sådana fall kan du klicka på nedladdnings-knappen för att ladda ner en ZIP-fil som innehåller tillägget."
+
+#: admin/views/class-view-addons.php:213
+msgid "The Add-Ons screen allows you to view available add-ons for the Members plugin. You can download some plugins directly. Others may be available to purchase."
+msgstr "På tilläggssidan kan du se vilka tillägg som är tillgängliga för Members. Du kan ladda ner vissa tillägg direkt. Andra måste köpas först."
+
+#: admin/views/class-view-addons.php:145
+msgid "%s+ Active Installs"
+msgstr "%s+ aktiva installationer"
+
+#: admin/views/class-view-addons.php:121
+msgid "By %s"
+msgstr "Av %s"
+
+#: admin/views/class-view-addons.php:103 admin/views/class-view-addons.php:107
+#: admin/views/class-view-addons.php:185
+msgid "Download"
+msgstr "Ladda ner"
+
+#: admin/views/class-view-addons.php:99 admin/views/class-view-addons.php:194
+msgid "Purchase"
+msgstr "Köp"
+
+#: admin/views/class-view-addons.php:53
+msgid "There are currently no add-ons to show. Please try again later."
+msgstr "Just nu finns det inga tillägg att visa. Vänligen försök igen senare."
+
+#: admin/functions-settings.php:46
+msgid "Add-Ons"
+msgstr "Tillägg"
+
+#: admin/functions-help.php:114
+msgid "Visit the %s page in the WordPress Codex to see a complete list of roles, capabilities, and their definitions."
+msgstr "Besök sidan %s på WordPress Codex för att se en komplett lista på roller, behörigheter och dess definitioner."
+
+#: admin/class-role-edit.php:301 admin/class-roles.php:173
+msgctxt "role"
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: admin/class-role-edit.php:234
+msgid "The %s role is typically the most important role on the site. Please take extreme caution that you do not inadvertently remove necessary capabilities."
+msgstr "Rollen %s är normalt den viktigaste rollen på webbplatsen. Var extremt försiktig så att du inte råkar ta bort viktiga behörigheter."
+
+#: admin/class-meta-box-custom-cap.php:90
+msgctxt "capability"
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: admin/class-manage-users.php:345
+msgid "Remove"
+msgstr "Ta bort"
+
+#: admin/class-manage-users.php:337 admin/class-manage-users.php:341
+msgid "Remove role&hellip;"
+msgstr "Ta bort roll&hellip;"
+
+#: admin/class-manage-users.php:334
+msgid "Add"
+msgstr "Lägg till"
+
+#: admin/class-manage-users.php:326 admin/class-manage-users.php:330
+msgid "Add role&hellip;"
+msgstr "Lägg till roll&hellip;"
+
+#: admin/class-manage-users.php:162 admin/class-manage-users.php:237
+msgid "One of the selected users is not a member of this site."
+msgstr "En av de valda användarna är inte medlem på denna webbplats."
+
+#: admin/class-manage-users.php:107
+msgid "Role removed from other selected users."
+msgstr "Roll borttagen från andra valda användare."
+
+#: admin/class-manage-users.php:106
+msgid "The current user&#8217;s role must have user editing capabilities."
+msgstr "Den nuvarande användarens roll måste ha redigeringsbehörigheter."
+
+#: admin/class-manage-users.php:102
+msgid "Role removed from selected users."
+msgstr "Rollen har tagits bort från de valda användarna."
+
+#: admin/class-manage-users.php:97
+msgid "Role added to selected users."
+msgstr "Rollen har lagts till för de valda användarna."
+
+#. Author URI of the plugin/theme
+msgid "https://themehybrid.com"
+msgstr "https://themehybrid.com"
+
+#. Author of the plugin/theme
+msgid "Justin Tadlock"
+msgstr "Justin Tadlock"
+
+#. Plugin URI of the plugin/theme
+msgid "https://themehybrid.com/plugins/members"
+msgstr "https://themehybrid.com/plugins/members"
+
+#. Plugin Name of the plugin/theme
+msgid "Members"
+msgstr "Medlemmar"
+
+#: members.php:151
+msgid "Method does not exist."
+msgstr "Metoden existerar inte."
+
+#: inc/functions-options.php:135
+msgid "You must be logged into the site to view this content."
+msgstr "Du måste vara inloggad på sajten för att se detta innehåll."
+
+#: inc/functions-options.php:134
+msgid "Sorry, but you do not have permission to view this content."
+msgstr "Tyvärr, men du har inte behörighet att se det här innehållet."
+
+#: inc/class-widget-users.php:269
+msgid "Meta Value:"
+msgstr "Metavärde:"
+
+#: inc/class-widget-users.php:261
+msgid "Meta Key:"
+msgstr "Metanyckel:"
+
+#: inc/class-widget-users.php:257
+msgid "Search:"
+msgstr "Sök:"
+
+#: inc/class-widget-users.php:253
+msgid "Exclude:"
+msgstr "Exkludera:"
+
+#: inc/class-widget-users.php:249
+msgid "Include:"
+msgstr "Inkludera:"
+
+#: inc/class-widget-users.php:241
+msgid "Offset:"
+msgstr "Förskjutning:"
+
+#: inc/class-widget-users.php:237
+msgid "Limit:"
+msgstr "Begränsning:"
+
+#: inc/class-widget-users.php:220
+msgid "Order:"
+msgstr "Ordning:"
+
+#: inc/class-widget-users.php:212
+msgid "Order By:"
+msgstr "Sortera efter:"
+
+#: inc/class-widget-users.php:197
+msgid "Login"
+msgstr "Logga in"
+
+#: inc/class-widget-users.php:196
+msgid "URL"
+msgstr "Webbadress"
+
+#: inc/class-widget-users.php:195
+msgid "Registered"
+msgstr "Registrerad"
+
+#: inc/class-widget-users.php:194
+msgid "Post Count"
+msgstr "Antal inlägg"
+
+#: inc/class-widget-users.php:193
+msgid "Nice Name"
+msgstr "Fint namn"
+
+#: inc/class-widget-users.php:192
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-widget-users.php:191
+msgid "Email"
+msgstr "E-post"
+
+#: inc/class-widget-users.php:190
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#: inc/class-widget-users.php:186
+msgid "Descending"
+msgstr "Fallande"
+
+#: inc/class-widget-users.php:185
+msgid "Ascending"
+msgstr "Stigande"
+
+#: inc/class-widget-users.php:55
+msgid "Members: Users"
+msgstr "Medlemmar: Användare"
+
+#: inc/class-widget-users.php:44
+msgid "Provides the ability to list the users of the site."
+msgstr "Ger behörighet att lista webbplatsens användare."
+
+#: inc/class-widget-login.php:281
+msgid "Logged in text:"
+msgstr "Text för inloggade:"
+
+#: inc/class-widget-login.php:276
+msgid "Logged out text:"
+msgstr "Text för utloggade:"
+
+#: inc/class-widget-login.php:272
+msgid "Display avatar?"
+msgstr "Visa profilbild?"
+
+#: inc/class-widget-login.php:266
+msgid "Check \"remember me\"?"
+msgstr "Kryssa i ”Kom ihåg mig”?"
+
+#: inc/class-widget-login.php:260
+msgid "\"Remember me\" checkbox?"
+msgstr "Kryssruta för ”Kom ihåg mig”?"
+
+#: inc/class-widget-login.php:249
+msgid "Submit Button ID:"
+msgstr "ID för skicka-knappen:"
+
+#: inc/class-widget-login.php:245
+msgid "Password Field ID:"
+msgstr "Fält-ID för lösenord:"
+
+#: inc/class-widget-login.php:241
+msgid "Remember Me Field ID:"
+msgstr "Fält-ID för ”Kom ihåg mig”:"
+
+#: inc/class-widget-login.php:237
+msgid "Username Field ID:"
+msgstr "ID för användarnamnsfältet:"
+
+#: inc/class-widget-login.php:233
+msgid "Username Value:"
+msgstr "Värde i användarnamnsfältet:"
+
+#: inc/class-widget-login.php:225
+msgid "Remember Me Label:"
+msgstr "Etikett för ”Kom ihåg mig”:"
+
+#: inc/class-widget-login.php:221
+msgid "Log In Label:"
+msgstr "Etikett för inloggningsfältet:"
+
+#: inc/class-widget-login.php:217
+msgid "Password Label:"
+msgstr "Lösenordsetikett:"
+
+#: inc/class-widget-login.php:213
+msgid "Username Label:"
+msgstr "Användarnamnsetikett:"
+
+#: inc/class-widget-login.php:209 inc/class-widget-users.php:208
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/class-widget-login.php:74
+msgid "You are currently logged in."
+msgstr "Du är just nu inloggad."
+
+#: inc/class-widget-login.php:73
+msgid "Please log into the site."
+msgstr "Vänligen logga in på webbplatsen."
+
+#: inc/class-widget-login.php:63
+msgid "Remember Me"
+msgstr "Kom ihåg mig"
+
+#: inc/class-widget-login.php:61
+msgid "Password"
+msgstr "Lösenord"
+
+#: inc/class-widget-login.php:60
+msgid "Username"
+msgstr "Användarnamn"
+
+#: inc/class-widget-login.php:59 inc/class-widget-login.php:62
+msgid "Log In"
+msgstr "Logga in"
+
+#: inc/class-widget-login.php:55
+msgid "Members: Login Form"
+msgstr "Medlemmar: Inloggningsformulär"
+
+#: inc/class-widget-login.php:44
+msgid "A widget that allows users to log into your site."
+msgstr "En widget som låter användare logga in på din webbplats."
+
+#: admin/tmpl/cap-section.php:21 admin/tmpl/cap-section.php:29
+msgid "Deny"
+msgstr "Neka"
+
+#: admin/tmpl/cap-section.php:20 admin/tmpl/cap-section.php:28
+msgid "Grant"
+msgstr "Bevilja"
+
+#: admin/tmpl/cap-section.php:19 admin/tmpl/cap-section.php:27
+msgid "Capability"
+msgstr "Behörighet"
+
+#: inc/functions-role-groups.php:43
+msgid "WordPress %s"
+msgid_plural "WordPress %s"
+msgstr[0] "WordPress %s"
+msgstr[1] "WordPress %s"
+
+#: inc/functions-role-groups.php:42
+msgid "WordPress"
+msgstr "WordPress"
+
+#: admin/class-role-list-table.php:429
+msgid "Uneditable %s"
+msgid_plural "Uneditable %s"
+msgstr[0] "Inte redigerbar %s"
+msgstr[1] "Inte redigerbara %s"
+
+#: admin/class-role-list-table.php:424
+msgid "Editable %s"
+msgid_plural "Editable %s"
+msgstr[0] "Redigerbar %s"
+msgstr[1] "Redigerbara %s"
+
+#: admin/class-role-list-table.php:419
+msgid "No Users %s"
+msgid_plural "No Users %s"
+msgstr[0] "Ingen användare %s"
+msgstr[1] "Inga användare %s"
+
+#: admin/class-role-list-table.php:414
+msgid "Has Users %s"
+msgid_plural "Has Users %s"
+msgstr[0] "Har användare %s"
+msgstr[1] "Har användare %s"
+
+#: admin/class-role-list-table.php:409
+msgid "Mine %s"
+msgid_plural "Mine %s"
+msgstr[0] "Min %s"
+msgstr[1] "Mina %s"
+
+#: admin/functions-help.php:154
+msgid "You may also opt to neither grant nor deny the role a capability."
+msgstr "Du kan också välja att varken bevilja eller neka rollen en behörighet."
+
+#: admin/functions-help.php:153
+msgid "<strong>Deny</strong> allows you to explicitly deny the role a capability."
+msgstr "<strong>Neka</strong> låter dig neka rollen en specifik behörighet."
+
+#: admin/functions-help.php:152
+msgid "<strong>Grant</strong> allows you to grant the role a capability."
+msgstr "<strong>Bevilja</strong> låter dig ge rollen en behörighet."
+
+#: admin/functions-help.php:148
+msgid "The capabilities edit box is made up of tabs that separate capabilities into groups. You may take the following actions for each capability:"
+msgstr "Sidan där du kan redigera behörigheter består av flikar där behörigheterna är indelade i grupper. Du kan genomföra följande åtgärder för varje behörighet:"
+
+#: admin/functions-help.php:134
+msgid "The machine-readable version of the role appears below the name field, which you can edit. This can only have lowercase letters, numbers, or underscores."
+msgstr "En redigerbar, maskinläsbar version av rollens namn visas nedanför namnfältet. Det maskinläsbara namnet kan bara innehålla små bokstäver, siffror eller understreck."
+
+#: admin/functions-help.php:130
+msgid "The role name field allows you to enter a human-readable name for your role."
+msgstr "I fältet för rollnamn kan du ange ett läsbart namn på din roll."
+
+#: admin/functions-help.php:109
+msgid "This screen allows you to edit an individual role and its capabilities."
+msgstr "På denna sida kan du redigera en enskild roll och dess behörigheter."
+
+#: admin/functions-help.php:78
+msgid "Edit Capabilities"
+msgstr "Redigera behörigheter"
+
+#: admin/functions-help.php:29
+msgid "For more information:"
+msgstr "För mer information:"
+
+#: inc/functions-cap-groups.php:130
+msgid "Custom"
+msgstr "Anpassade"
+
+#: inc/functions-cap-groups.php:112
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: inc/functions-cap-groups.php:103
+msgid "Appearance"
+msgstr "Utseende"
+
+#: inc/functions-cap-groups.php:92
+msgid "Taxonomies"
+msgstr "Taxonomier"
+
+#: admin/functions-settings.php:35 inc/functions-cap-groups.php:42
+msgid "General"
+msgstr "Allmänt"
+
+#: admin/class-cap-tabs.php:165
+msgid "All"
+msgstr "Alla"
+
+#: admin/class-manage-users.php:382
+msgid "None"
+msgstr "Ingen"
+
+#: admin/functions-admin.php:50
+msgid "Are you sure you want to delete this role? This is a permanent action and cannot be undone."
+msgstr "Är du säker på att du vill radera denna roll? Det är permanent och kan inte göras ogjort."
+
+#: admin/functions-admin.php:47
+msgid "OK"
+msgstr "OK"
+
+#: admin/class-user-edit.php:97 admin/class-user-new.php:109
+msgid "User Roles"
+msgstr "Användarroller"
+
+#: admin/views/class-view-general.php:454
+msgid "The private site feature redirects all users who are not logged into the site to the login page, creating an entirely private site. You may also replace your feed content with a custom error message."
+msgstr "Funktionen Privata sidor omdirigerar alla utloggade användare till inloggningssidan och skapar en helt privat webbplats. Du kan också ersätta innehållet i ditt webbflöde med ett anpassat felmeddelande."
+
+#: admin/views/class-view-general.php:440
+msgid "The sidebar widgets feature adds additional widgets for use in your theme's sidebars."
+msgstr "Funktionen för sidopanel-widgetar lägger till ytterligare widgetar som du kan använda i ditt temas sidopaneler."
+
+#: admin/views/class-view-general.php:426
+msgid "The content permissions features adds a meta box to the edit post screen that allows you to grant permissions for who can read the post content based on the user's role. Only users of roles with the %s capability will be able to use this component."
+msgstr "Funktionerna för innehållsbehörighet lägger till en metaruta på redigeringsskärmen som tillåter dig att bevilja behörigheter för vem som kan läsa inläggets innehåll baserat på användarens roll. Endast användare av roller med %s kapacitet kommer att kunna använda denna komponent."
+
+#: admin/views/class-view-general.php:404
+msgid "The multiple user roles feature allows you to assign more than one role to each user from the edit user screen."
+msgstr "Funktionen för flera användarroller låter dig tilldela mer än en roll till varje användare via sidan för redigering av användare."
+
+#: admin/views/class-view-general.php:408
+msgid "Tick the checkbox for denied capabilities to always take precedence over granted capabilities when there is a conflict. This is only relevant when using multiple roles per user."
+msgstr "Markera kryssrutan för nekade behörigheter för att alltid ha företräde över tillåtna behörigheter när konflikter uppstår. Detta är endast relevant när du använder flera roller per användare."
+
+#: admin/views/class-view-general.php:400
+msgid "The role manager allows you to manage roles on your site by giving you the ability to create, edit, and delete any role. Note that changes to roles do not change settings for the Members plugin. You are literally changing data in your WordPress database. This plugin feature merely provides an interface for you to make these changes."
+msgstr "Rollhanteraren låter dig hantera roller på din webbplats genom att den ger dig möjlighet att skapa, redigera och ta bort roller. Notera att ändringar gällande rollerna inte innebär att du ändrar inställningarna i Members-tillägget. Du ändrar bokstavligen din WordPressdatabas. Tilläggets funktioner är bara ett gränssnitt för att du ska kunna genomföra dessa ändringar."
+
+#: admin/functions-help.php:24
+msgid "Support Forums"
+msgstr "Supportforum"
+
+#: admin/functions-help.php:23
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin/views/class-view-general.php:354
+msgid "Role and Capabilities"
+msgstr "Roll och behörigheter"
+
+#: admin/views/class-view-general.php:333
+msgid "Update Settings"
+msgstr "Uppdatera inställningarna"
+
+#: admin/views/class-view-general.php:297
+msgid "Show error message for feed items."
+msgstr "Visa felmeddelanden för webbflöden."
+
+#: admin/views/class-view-general.php:267
+msgid "Redirect all logged-out users to the login page before allowing them to view the site."
+msgstr "Omdirigera alla utloggade användare till inloggningssidan innan de tillåts att se webbplatsen."
+
+#: admin/views/class-view-general.php:252
+msgid "Enable the users widget."
+msgstr "Aktivera widgeten för användare."
+
+#: admin/views/class-view-general.php:237
+msgid "Enable the login form widget."
+msgstr "Aktivera widgeten för inloggningsformulär."
+
+#: admin/views/class-view-general.php:202
+msgid "Enable the content permissions feature."
+msgstr "Aktivera funktionen för innehållsbehörigheter."
+
+#: admin/views/class-view-general.php:187
+msgid "Allow users to be assigned more than a single role."
+msgstr "Låter användare tilldelas mer än en enskild roll."
+
+#: admin/views/class-view-general.php:162
+msgid "Denied capabilities should always overrule granted capabilities."
+msgstr "Nekade behörigheter ska alltid upphäva beviljade behörigheter."
+
+#: admin/views/class-view-general.php:144
+msgid "Enable the role manager."
+msgstr "Aktivera rollhanteraren."
+
+#: admin/views/class-view-general.php:129
+msgid "Your roles and capabilities will not revert back to their previous settings after deactivating or uninstalling this plugin, so use this feature wisely."
+msgstr "Dina roller och behörigheter återgår inte till sina tidigare inställningar när du inaktiverar och avinstallerar tillägget, så använd denna funktionen med försiktighet."
+
+#: admin/views/class-view-general.php:86
+msgid "Feed Error Message"
+msgstr "Felmeddelande för webbflöde"
+
+#: admin/views/class-view-general.php:85
+msgid "Disable Feed"
+msgstr "Inaktivera flöde"
+
+#: admin/views/class-view-general.php:83
+msgid "Enable Private Site"
+msgstr "Aktivera privat webbplats"
+
+#: admin/views/class-view-general.php:80
+msgid "Users Widget"
+msgstr "Användarwidget"
+
+#: admin/views/class-view-general.php:79
+msgid "Login Widget"
+msgstr "Inloggningswidget"
+
+#: admin/class-meta-box-content-permissions.php:180
+#: admin/views/class-view-general.php:76
+msgid "Error Message"
+msgstr "Felmeddelande"
+
+#: admin/views/class-view-general.php:75
+msgid "Enable Permissions"
+msgstr "Aktivera rättigheter"
+
+#: admin/views/class-view-general.php:71
+msgid "Multiple User Roles"
+msgstr "Flera användarroller"
+
+#: admin/views/class-view-general.php:72
+msgid "Capabilities"
+msgstr "Behörigheter"
+
+#: admin/views/class-view-general.php:70
+msgid "Role Manager"
+msgstr "Rollhanterare"
+
+#: admin/views/class-view-general.php:65 admin/views/class-view-general.php:381
+msgid "Private Site"
+msgstr "Privat webbplats"
+
+#: admin/views/class-view-general.php:64 admin/views/class-view-general.php:372
+msgid "Sidebar Widgets"
+msgstr "Widgetar för sidopanel"
+
+#: admin/functions-help.php:115 admin/views/class-view-general.php:62
+msgid "Roles and Capabilities"
+msgstr "Roller och behörigheter"
+
+#: admin/class-settings.php:174 admin/class-settings.php:175
+#: admin/class-settings.php:275
+msgctxt "admin screen"
+msgid "Members"
+msgstr "Medlemmar"
+
+#: admin/class-roles.php:310
+msgid "You can permanently delete multiple roles at once. Select the roles you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Du kan ta bort flera roller permanent på en gång. Välj de roller du vill ta bort genom att använda kryssrutorna. Välj sedan en åtgärd från menyn massåtgärder och klicka på verkställ."
+
+#: admin/class-roles.php:296
+msgid "<strong>Users</strong> takes you to the users screen and lists the users that have that role."
+msgstr "<strong>Användare</strong> tar dig till användarsidan och listar de användare som har den rollen."
+
+#: admin/class-roles.php:295
+msgid "<strong>Clone</strong> copies the role and takes you to the new role screen to further edit it."
+msgstr "<strong>Klona</strong> skapar en kopia av rollen och tar dig till sidan för din nya roll för fortsatt redigering."
+
+#: admin/class-roles.php:294
+msgid "<strong>Delete</strong> removes your role from this list and permanently deletes it."
+msgstr "<strong>Ta bort</strong> tar bort rollen från listan permanent."
+
+#: admin/class-roles.php:293
+msgid "<strong>Edit</strong> takes you to the editing screen for that role. You can also reach that screen by clicking on the role name."
+msgstr "<strong>Redigera</strong> tar dig till en sida där du kan redigera rollen. Du kan också nå sidan genom att klicka på rollnamnet."
+
+#: admin/class-roles.php:289
+msgid "Hovering over a row in the roles list will display action links that allow you to manage your role. You can perform the following actions:"
+msgstr "När du för muspekaren över en rad i listan på roller visas länkar som låter dig hantera din roll. Du kan göra följande:"
+
+#: admin/class-roles.php:275
+msgid "You can filter the list of roles by types using the text links in the upper left. The default view is to show all roles."
+msgstr "Du kan filtrera listan av roller efter typ genom att använda textlänkarna längst upp till vänster. Som standard visas alla roller."
+
+#: admin/class-roles.php:274
+msgid "You can hide/display columns based on your needs and decide how many roles to list per screen using the Screen Options tab."
+msgstr "Du kan gömma/visa kolumner efter behov genom att välja hur många roller du vill visa per sida under fliken Panelinställningar."
+
+#: admin/class-roles.php:270
+msgid "You can customize the display of this screen&#8216;s contents in a number of ways:"
+msgstr "Du kan anpassa hur innehållet för denna sida visas på ett antal olika sätt:"
+
+#: admin/class-roles.php:256
+msgid "This screen provides access to all of your user roles. Roles are a method of grouping users. They are made up of capabilities (caps), which give permission to users to perform specific actions on the site."
+msgstr "Denna sida ger dig åtkomst till alla dina användarroller. Roller är ett sätt att gruppera användare. De består av behörigheter, som ger användarna behörighet att genomföra specifika åtgärder på webbplatsen."
+
+#: admin/class-roles.php:237
+msgid "Bulk Actions"
+msgstr "Massåtgärder"
+
+#: admin/class-roles.php:228
+msgid "Available Actions"
+msgstr "Tillgängliga åtgärder"
+
+#: admin/class-roles.php:219
+msgid "Screen Content"
+msgstr "Innehåll"
+
+#: admin/class-roles.php:210 admin/functions-help.php:46
+#: admin/views/class-view-addons.php:176
+msgid "Overview"
+msgstr "Översikt"
+
+#: admin/class-roles.php:131
+msgid "%s role deleted."
+msgstr "%s roll borttagen."
+
+#: admin/class-roles.php:112
+msgid "Selected roles deleted."
+msgstr "Valda roller borttagna."
+
+#: admin/class-roles.php:71
+msgid "Denied"
+msgstr "Nekad"
+
+#: admin/class-roles.php:70
+msgid "Granted"
+msgstr "Beviljad"
+
+#: admin/class-role-new.php:328
+msgid "Enter role name"
+msgstr "Ange ett rollnamn"
+
+#: admin/class-role-new.php:328
+msgid "%s Clone"
+msgstr "%s-klon"
+
+#: admin/class-role-new.php:310
+msgid "Clone Role"
+msgstr "Klona roll"
+
+#: admin/class-role-new.php:243
+msgid "You must enter a valid role name."
+msgstr "Du måste ange ett giltigt rollnamn."
+
+#: admin/class-role-new.php:239
+msgid "The %s role already exists."
+msgstr "Rollen %s existerar redan."
+
+#: admin/class-role-new.php:235
+msgid "You must enter a valid role."
+msgstr "Du måste ange en giltig roll."
+
+#: admin/class-role-new.php:109 admin/class-role-new.php:310
+msgid "Add New Role"
+msgstr "Lägg till ny roll"
+
+#: admin/class-role-list-table.php:404
+msgid "All %s"
+msgid_plural "All %s"
+msgstr[0] "Alla %s"
+msgstr[1] "Alla %s"
+
+#: admin/class-role-list-table.php:364 admin/class-roles.php:69
+#: inc/class-widget-users.php:59 inc/functions-cap-groups.php:121
+msgid "Users"
+msgstr "Användare"
+
+#: admin/class-role-list-table.php:360
+msgid "Change Default"
+msgstr "Ändra standard"
+
+#: admin/class-role-list-table.php:356
+msgid "Clone"
+msgstr "Klona"
+
+#: admin/class-role-list-table.php:351
+msgid "View"
+msgstr "Visa"
+
+#: admin/class-role-list-table.php:345 admin/class-role-list-table.php:494
+msgid "Delete"
+msgstr "Radera"
+
+#: admin/class-role-list-table.php:341 admin/class-role-new.php:335
+#: admin/functions-admin.php:46
+msgid "Edit"
+msgstr "Redigera"
+
+#: admin/class-role-list-table.php:236
+msgid "Your Role"
+msgstr "Din roll"
+
+#: admin/class-role-list-table.php:232
+msgid "Default Role"
+msgstr "Standardroll"
+
+#: admin/class-role-edit.php:326 admin/class-role-new.php:333
+#: inc/class-widget-users.php:228
+msgid "Role:"
+msgstr "Roll:"
+
+#: admin/class-role-edit.php:320 admin/class-role-new.php:327
+#: admin/class-roles.php:67 admin/functions-help.php:62
+msgid "Role Name"
+msgstr "Rollnamn"
+
+#: admin/class-role-edit.php:238 admin/class-role-new.php:226
+msgid "The %s role has been created."
+msgstr "%s rollen har skapats."
+
+#: admin/class-role-edit.php:230
+msgid "The %s role is not editable. This means that it is most likely added via another plugin for a special use or that you do not have permission to edit it."
+msgstr "Rollen %s är inte redigeringsbar. Det beror troligtvis på att rollen lagts till genom ett annat tillägg eller att du inte har rättigheter att redigera den."
+
+#: admin/class-role-edit.php:226
+msgid "%s role updated."
+msgstr "%s roll uppdaterad."
+
+#: admin/class-role-edit.php:99
+msgid "The requested role to edit does not exist."
+msgstr "Den valda rollen att redigera existerar ej."
+
+#: admin/class-manage-users.php:161 admin/class-manage-users.php:236
+#: admin/class-role-edit.php:92 members.php:129 members.php:140
+msgid "Whoah, partner!"
+msgstr "Hallå där!"
+
+#: admin/class-meta-box-publish-role.php:130
+msgid "Add Role"
+msgstr "Lägg till roll"
+
+#: admin/class-meta-box-publish-role.php:130
+msgid "Update"
+msgstr "Uppdatera"
+
+#: admin/class-meta-box-publish-role.php:123
+msgctxt "delete role"
+msgid "Delete"
+msgstr "Ta bort"
+
+#: admin/class-meta-box-publish-role.php:112
+msgid "Denied:"
+msgstr "Nekade:"
+
+#: admin/class-meta-box-publish-role.php:106
+msgid "Granted:"
+msgstr "Beviljade:"
+
+#: admin/class-meta-box-publish-role.php:100
+msgid "Users:"
+msgstr "Användare:"
+
+#: admin/class-meta-box-publish-role.php:67 admin/class-roles.php:68
+#: inc/functions-admin-bar.php:35
+msgid "Role"
+msgstr "Roll"
+
+#: admin/class-meta-box-custom-cap.php:73 admin/functions-help.php:94
+msgid "Custom Capability"
+msgstr "Anpassad behörighet"
+
+#: admin/class-meta-box-content-permissions.php:210
+msgid "If no roles are selected, everyone can view the content. The author, any users who can edit the content, and users with the %s capability can view the content regardless of role."
+msgstr "Om du inte väljer någon roll så kan alla se innehållet. Författaren, alla användare som kan redigera innehållet och användare med behörigheten %s kan se innehållet oavsett roll."
+
+#: admin/class-meta-box-content-permissions.php:190
+msgid "Limit access to the content to users of the selected roles."
+msgstr "Begränsa åtkomst till innehållet till användare med de valda rollerna."
+
+#: admin/class-meta-box-content-permissions.php:115
+#: admin/views/class-view-general.php:63 admin/views/class-view-general.php:363
+msgid "Content Permissions"
+msgstr "Behörighet för innehåll"
+
+#: admin/class-manage-roles.php:89 admin/class-role-edit.php:298
+msgid "Edit Role"
+msgstr "Redigera roll"
+
+#: admin/class-manage-roles.php:86 admin/class-manage-roles.php:92
+#: admin/class-manage-users.php:360
+#: admin/class-meta-box-content-permissions.php:174 admin/class-roles.php:170
+#: admin/class-user-edit.php:92
+msgid "Roles"
+msgstr "Roller"
+
+#: admin/class-cap-tabs.php:194
+msgid "Edit Capabilities: %s"
+msgstr "Redigera behörigheter: %s"
+
+#: admin/class-cap-control.php:119 admin/functions-admin.php:49
+msgid "Deny %s capability"
+msgstr "Neka %s behörighet"
+
+#: admin/class-cap-control.php:118 admin/functions-admin.php:48
+msgid "Grant %s capability"
+msgstr "Bevilja behörighet för %s"

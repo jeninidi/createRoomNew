@@ -1,0 +1,1140 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:16:56
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.4                                 |7.4.9
+OS__________________: WINNT                                 |Darwin
+CREATED_____________: 2020-08-31 07:29:38
+WP VERSION__________: 5.0.2
+DUP VERSION_________: 1.3.36
+DB__________________: 10.1.38
+DB TABLES___________: 84
+DB ROWS_____________: 232,789
+DB FILE SIZE________: 75.84MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.9 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.9 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Applications/MAMP/htdocs"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/20200818_hamstocom_[HASH]_20200831092938_archive.zip"
+SIZE________________: 419.93MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:17:10 - RUNTIME: 14.0228 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:22:02
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.30 -- Build Server: 10.1.38
+FILE SIZE:	dup-database__[HASH].sql (40.08MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.30] is less than the build version [10.1.38].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/Applications/MAMP/htdocs/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	772
+
+wp_commentmeta: (0)
+wp_comments: (94)
+wp_create_map: (2)
+wp_duplicator_packages: (0)
+wp_gf_addon_feed: (3)
+wp_gf_addon_payment_callback: (5)
+wp_gf_addon_payment_transaction: (12)
+wp_gf_draft_submissions: (5)
+wp_gf_entry: (109)
+wp_gf_entry_meta: (467)
+wp_gf_entry_notes: (0)
+wp_gf_form: (6)
+wp_gf_form_meta: (6)
+wp_gf_form_revisions: (0)
+wp_gf_form_view: (758)
+wp_group_map: (0)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (63)
+wp_icl_languages: (63)
+wp_icl_languages_translations: (3969)
+wp_icl_locale_map: (3)
+wp_icl_message_status: (0)
+wp_icl_mo_files_domains: (24)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_packages: (22)
+wp_icl_string_pages: (74894)
+wp_icl_string_positions: (89)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (20758)
+wp_icl_string_urls: (202)
+wp_icl_strings: (18795)
+wp_icl_translate: (17)
+wp_icl_translate_job: (2)
+wp_icl_translation_batches: (2)
+wp_icl_translation_status: (697)
+wp_icl_translations: (2543)
+wp_links: (0)
+wp_location_ratings: (0)
+wp_map_locations: (0)
+wp_map_routes: (0)
+wp_options: (671)
+wp_orders: (445)
+wp_postmeta: (24585)
+wp_posts: (5689)
+wp_rg_form: (3)
+wp_rg_form_meta: (3)
+wp_rg_form_view: (178)
+wp_rg_incomplete_submissions: (5)
+wp_rg_lead: (4)
+wp_rg_lead_detail: (61)
+wp_rg_lead_detail_long: (0)
+wp_rg_lead_meta: (8)
+wp_rg_lead_notes: (0)
+wp_signups: (0)
+wp_term_relationships: (347)
+wp_term_taxonomy: (97)
+wp_termmeta: (440)
+wp_terms: (97)
+wp_usermeta: (23823)
+wp_users: (946)
+wp_wfblockediplog: (0)
+wp_wfblocks7: (0)
+wp_wfconfig: (274)
+wp_wfcrawlers: (0)
+wp_wffilechanges: (0)
+wp_wffilemods: (24617)
+wp_wfhits: (1811)
+wp_wfhoover: (0)
+wp_wfissues: (34)
+wp_wfknownfilelist: (24617)
+wp_wflivetraffichuman: (1)
+wp_wflocs: (0)
+wp_wflogins: (273)
+wp_wfls_2fa_secrets: (0)
+wp_wfls_settings: (19)
+wp_wfnotifications: (42)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (0)
+wp_wfsnipcache: (0)
+wp_wfstatus: (967)
+wp_wftrafficrates: (0)
+wp_wpgmp_backups: (0)
+Removed '13' cache/transient rows
+
+INSERT DATA RUNTIME: 5.9264 sec.
+STEP-2 COMPLETE @ 08:22:08 - RUNTIME: 5.9671 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:22:26
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Hamsto.com"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/hamsto"
+path_new______________: "/Applications/MAMP/htdocs"
+siteurl_______________: "http://localhost:8888"
+url_old_______________: "http://localhost/hamsto"
+url_new_______________: "http://localhost:8888"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    94][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_create_map"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_addon_feed"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_addon_payment_callback"____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_addon_payment_transaction"_________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_draft_submissions"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_entry"_____________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_entry_meta"________________________________[ROWS:   467][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_entry_notes"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form"______________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_form_meta"_________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_gf_form_revisions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_view"_________________________________[ROWS:   758][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_group_map"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_content_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_core_status"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_flags"____________________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_languages"________________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_languages_translations"___________________[ROWS:  3969][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_locale_map"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_message_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_mo_files_domains"_________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_node"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_reminders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_packages"__________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_string_pages"_____________________________[ROWS: 74894][PG:  22][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_string_positions"_________________________[ROWS:    89][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_string_status"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS: 20758][PG:   6][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_string_urls"______________________________[ROWS:   202][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS: 18795][PG:   6][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_translate"________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_translate_job"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_translation_batches"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_translation_status"_______________________[ROWS:   697][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_icl_translations"_____________________________[ROWS:  2543][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_location_ratings"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_map_locations"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_map_routes"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   671][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_orders"_______________________________________[ROWS:   445][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 24585][PG:   8][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  5689][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_form"______________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_form_meta"_________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_form_view"_________________________________[ROWS:   178][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_incomplete_submissions"____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_lead"______________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_lead_detail"_______________________________[ROWS:    61][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_lead_detail_long"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rg_lead_meta"_________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_rg_lead_notes"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_signups"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   347][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    97][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   440][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    97][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS: 23823][PG:   7][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:   946][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   274][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS: 24617][PG:   8][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:  1811][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS: 24617][PG:   8][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:   273][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:   967][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  2:"C:\/xampp\/htdocs\/hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fhamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  4:"C:\xampp\htdocs\hamsto" ==========================> "/Applications/MAMP/htdocs"
+	SEARCH  5:"C:\\xampp\\htdocs\\hamsto" =======================> "\/Applications\/MAMP\/htdocs"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Chamsto" ==================> "%2FApplications%2FMAMP%2Fhtdocs"
+	SEARCH  7:"//localhost/hamsto" ==============================> "//localhost:8888"
+	SEARCH  8:"\/\/localhost\/hamsto" ===========================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Flocalhost%2Fhamsto" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmp_backups"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:84 	|	 Rows:233667 	|	 Cells:1397846 
+UPDATED:	Tables:19 	|	 Rows:3683 	|	 Cells:4877 
+ERRORS:		0 
+RUNTIME:	5.718800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""Hamsto""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:22:31 - RUNTIME: 5.7558 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

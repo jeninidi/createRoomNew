@@ -1,0 +1,112 @@
+# Translation of Plugins - Contact Form 7 Honeypot - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Contact Form 7 Honeypot - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-16 14:01:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Contact Form 7 Honeypot - Stable (latest release)\n"
+
+#: honeypot.php:244
+msgid "Move inline CSS (optional)"
+msgstr "Flytta inbäddad CSS-koden (valfritt)"
+
+#: honeypot.php:248
+msgid "Moves the CSS to hide the honeypot from the element to the footer of the page. May help confuse bots."
+msgstr "CSS-koden som döljer din honeypot flyttas från själva elementet ned till sidfoten. Detta kan hjälpa till att förvirra bottar."
+
+#: honeypot.php:234
+msgid "Use W3C Valid Autocomplete (optional)"
+msgstr "Utnyttja giltig Autocomplete enligt W3C (valfritt)"
+
+#: honeypot.php:238
+msgid "See <a href=\"https://wordpress.org/support/topic/w3c-validation-in-1-11-explanation-and-work-arounds/\" target=\"_blank\" rel=\"noopener\">here</a> for more details. If you're unsure, leave this unchecked."
+msgstr "Här hittar du <a href=\"https://wordpress.org/support/topic/w3c-validation-in-1-11-explanation-and-work-arounds/\" target=\"_blank\" rel=\"noopener\">mer information</a>. Kryssa inte i alternativet om du känner dig osäker."
+
+#: honeypot.php:210
+msgid "This can be anything, but should be changed from the default generated \"honeypot\". For better security, change \"honeypot\" to something more appealing to a bot, such as text including \"email\" or \"website\"."
+msgstr "Fältet kan ha vilket värde som helst, men bör ändras från standardvärdet ”honeypot”. För ökad säkerhet kan du ändra ”honeypot” till något som kan intressera en attackerande bot, kanske någon text som bl.a. innehåller ordet ”e-post” eller ”webbplats”."
+
+#: honeypot.php:254
+msgid "Disable Accessibility Label (optional)"
+msgstr "Inaktivera märkning för åtkomlighet (valfritt)"
+
+#: honeypot.php:258
+msgid "If checked, the accessibility label will not be generated. <strong>This is not recommended</strong>. If you're unsure, leave this unchecked."
+msgstr "Om alternativet är valt kommer ingen tagg för åtkomlighet att genereras. <strong>Vi rekommenderar inte detta</strong>. Kryssa inte i om du är osäker."
+
+#: honeypot.php:67
+msgid "%s must be installed and activated for the CF7 Honeypot plugin to work"
+msgstr "För att tillägget CF7 Honeypot ska fungera måste %s vara installerat och aktiverat"
+
+#: honeypot.php:115
+msgid "Please leave this field empty."
+msgstr "Lämna detta fält tomt."
+
+#: honeypot.php:187 honeypot.php:189
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: honeypot.php:196
+msgid "Generate a form-tag for a spam-stopping honeypot field. For more details, see %s."
+msgstr "Generera en formulärtagg åt ett honeypot-fält som ska stoppa spam. Se %s för närmare information."
+
+#: honeypot.php:197
+msgid "CF7 Honeypot"
+msgstr "CF7 Honeypot"
+
+#: honeypot.php:206 honeypot.php:281
+msgid "Name"
+msgstr "Namn"
+
+#: honeypot.php:283
+msgid "For better security, change \"honeypot\" to something less bot-recognizable."
+msgstr "För ökad säkerhet bör du ändra ”honeypot” till något som bottar inte känner igen lika enkelt."
+
+#: honeypot.php:216 honeypot.php:294
+msgid "ID (optional)"
+msgstr "ID (valfritt)"
+
+#: honeypot.php:225 honeypot.php:298
+msgid "Class (optional)"
+msgstr "CSS-klass (valfritt)"
+
+#: honeypot.php:304
+msgid "Don't Use Accessibility Message (optional)"
+msgstr "Använd inget meddelande för åtkomlighetsverktyg (valfritt)"
+
+#: honeypot.php:305
+msgid "If checked, the accessibility message will not be generated. <strong>This is not recommended</strong>. If you're unsure, leave this unchecked."
+msgstr "Om alternativet är valt kommer inte meddelandet för åtkomlighetsverktyg att genereras. <strong>Detta rekommenderas inte.</strong> Lämna tomt om du känner dig osäker."
+
+#: honeypot.php:270
+msgid "Insert Tag"
+msgstr "Lägg in etikett"
+
+#: honeypot.php:314
+msgid "Copy this code and paste it into the form left."
+msgstr "Kopiera denna kod och klistra in den i formuläret till vänster."
+
+#. Plugin Name of the plugin/theme
+msgid "Contact Form 7 Honeypot"
+msgstr "Contact Form 7 Honeypot"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.nocean.ca/plugins/honeypot-module-for-contact-form-7-wordpress-plugin/"
+msgstr "http://www.nocean.ca/plugins/honeypot-module-for-contact-form-7-wordpress-plugin/"
+
+#. Description of the plugin/theme
+msgid "Add honeypot anti-spam functionality to the popular Contact Form 7 plugin."
+msgstr "Lägger till en funktion för skydd mot skräppost i det populära tillägget Contact Form 7."
+
+#. Author of the plugin/theme
+msgid "Nocean"
+msgstr "Nocean"
+
+#. Author URI of the plugin/theme
+msgid "http://www.nocean.ca"
+msgstr "http://www.nocean.ca"

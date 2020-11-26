@@ -1,0 +1,84 @@
+# Translation of Plugins - AJAX Thumbnail Rebuild - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - AJAX Thumbnail Rebuild - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-15 18:38:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - AJAX Thumbnail Rebuild - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "junkcoder, ristoniinemets"
+msgstr "junkcoder, ristoniinemets"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/ajax-thumbnail-rebuild/"
+msgstr "https://wordpress.org/plugins/ajax-thumbnail-rebuild/"
+
+#: ajax-thumbnail-rebuild.php:132
+msgid "Rebuilding %s of %s (%s)..."
+msgstr "Återskapar %s av %s (%s)…"
+
+#: ajax-thumbnail-rebuild.php:231
+msgid "Last image"
+msgstr "Sista bilden"
+
+#: ajax-thumbnail-rebuild.php:227
+msgid "Rebuild All Thumbnails"
+msgstr "Återskapa alla miniatyrer"
+
+#. Plugin Name of the plugin/theme
+msgid "AJAX Thumbnail Rebuild"
+msgstr "AJAX Thumbnail Rebuild"
+
+#: ajax-thumbnail-rebuild.php:224
+msgid "Note: If you've changed the dimensions of your thumbnails, existing thumbnail images will not be deleted."
+msgstr "Obs! Om du har ändrat miniatyrernas dimensioner kommer inte befintliga miniatyrer att tas bort."
+
+#: ajax-thumbnail-rebuild.php:64 ajax-thumbnail-rebuild.php:167
+msgid "Error"
+msgstr "Fel"
+
+#: ajax-thumbnail-rebuild.php:220
+msgid "Only rebuild featured images"
+msgstr "Återskapa endast utvalda bilder"
+
+#: ajax-thumbnail-rebuild.php:203
+msgid "cropped"
+msgstr "beskuren"
+
+#: ajax-thumbnail-rebuild.php:185
+msgid "Toggle all"
+msgstr "Slå på/av alla"
+
+#: ajax-thumbnail-rebuild.php:184
+msgid "Select which thumbnails you want to rebuild"
+msgstr "Välj vilka miniatyrer du vill återskapa:"
+
+#: ajax-thumbnail-rebuild.php:119
+msgid "No attachments found."
+msgstr "Inga bilagor hittades."
+
+#: ajax-thumbnail-rebuild.php:60 ajax-thumbnail-rebuild.php:128
+msgid "Done."
+msgstr "Klart."
+
+#: ajax-thumbnail-rebuild.php:52 ajax-thumbnail-rebuild.php:98
+msgid "Reading attachments..."
+msgstr "Läser bilagor…"
+
+#: ajax-thumbnail-rebuild.php:23
+msgid "Rebuild Thumbnails"
+msgstr "Återskapa miniatyrer"
+
+#: ajax-thumbnail-rebuild.php:23
+msgid "Rebuild all Thumbnails"
+msgstr "Återskapa alla miniatyrer"
+
+#: ajax-thumbnail-rebuild.php:78
+msgid "Ajax Thumbnail Rebuild"
+msgstr "Ajax Thumbnail Rebuild"

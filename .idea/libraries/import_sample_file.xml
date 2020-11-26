@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="import_sample_file">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wp-content/plugins/wp-google-map-gold/assets/import_sample_file.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
